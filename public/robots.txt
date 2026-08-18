@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://foodtruck-map.example.com/sitemap.xml
+Sitemap: https://foodtruck-map.jp/sitemap.xml
