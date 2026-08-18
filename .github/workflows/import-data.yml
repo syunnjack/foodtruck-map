@@ -1,0 +1,75 @@
+# 出店スポットを本番DBに取り込む。手動実行のみ。
+#
+# /spots のルート・コントローラ・モデルは追加済みだが、通常のデプロイでは
+# public/ と resources/ しか送っていないため本番に届いていない。
+# ここで routes/ app/ database/ も送り、マイグレーションとシーダーを流す。
+#
+# 消す操作はしない。SpotSeeder は名前と住所で updateOrCreate するので、
+# 何度流しても重複しない。
+name: Import spot data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload app code via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          port: 10022
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './app/*'
+          remote_path: '/home/xs501620/foodtruck-map.jp/app/app/'
+          sftp_only: true
+          delete_remote_files: false
+
+      - name: Upload routes via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          port: 10022
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './routes/*'
+          remote_path: '/home/xs501620/foodtruck-map.jp/app/routes/'
+          sftp_only: true
+          delete_remote_files: false
+
+      # database/database.sqlite はリポジトリに含まれていないので、
+      # 本番のデータベース本体が上書きされることはない。
+      - name: Upload database files via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          server: ${{ secrets.SSH_HOST }}
+          port: 10022
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './database/*'
+          remote_path: '/home/xs501620/foodtruck-map.jp/app/database/'
+          sftp_only: true
+          delete_remote_files: false
+
+      - name: Migrate and seed over SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          port: 10022
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            set -e
+            cd ~/foodtruck-map.jp/app
+            PHP=$(command -v php8.3 || command -v php || echo /opt/php-8.3.30/bin/php)
+            echo "php: $($PHP -v | head -1)"
+            $PHP artisan migrate --force
+            $PHP artisan db:seed --class=SpotSeeder --force
+            $PHP artisan route:clear
+            $PHP artisan view:clear
+            echo "--- 出店スポットの件数 ---"
+            $PHP artisan tinker --execute="echo \App\Models\Spot::count();"
