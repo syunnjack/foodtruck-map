@@ -6,10 +6,15 @@ use App\Http\Controllers\FavoriteController;
 use App\Http\Controllers\LineLoginController;
 use App\Http\Controllers\LineWebhookController;
 use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\SpotController;
 use App\Http\Controllers\TruckController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', [AppearanceController::class, 'index'])->name('appearances.index');
+
+// キッチンカーが出店する場所（自治体の公表情報をもとにした固定データ）
+Route::get('/spots', [SpotController::class, 'index'])->name('spots.index');
+Route::get('/spots/{spot}', [SpotController::class, 'show'])->name('spots.show');
 
 Route::get('/trucks', [TruckController::class, 'index'])->name('trucks.index');
 Route::get('/trucks/create', [TruckController::class, 'create'])->name('trucks.create');

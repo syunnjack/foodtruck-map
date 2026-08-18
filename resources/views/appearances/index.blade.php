@@ -21,6 +21,7 @@
     <h1 class="fw-bold h3">🚐 フードトラックマップ</h1>
     <p class="text-muted">現在地から近い出店をすぐ見つける・今日どこにいるかがわかる地図</p>
     <a href="{{ route('trucks.create') }}" class="btn btn-truck shadow-sm px-4">➕ フードトラックを登録</a>
+    <a href="{{ route('spots.index') }}" class="btn btn-outline-secondary shadow-sm px-4">出店する場所を見る</a>
   </div>
 
   <div class="d-flex justify-content-center mb-3">

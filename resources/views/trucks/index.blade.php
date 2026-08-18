@@ -29,6 +29,7 @@
   <div class="text-center mb-4">
     <h1 class="fw-bold h3">トラック一覧</h1>
     <a href="{{ route('trucks.create') }}" class="btn btn-truck shadow-sm px-4">➕ フードトラックを登録</a>
+    <a href="{{ route('spots.index') }}" class="btn btn-outline-secondary shadow-sm px-4">出店する場所を見る</a>
   </div>
 
   <form method="GET" action="{{ route('trucks.index') }}" class="row g-2 mb-4">
@@ -63,7 +64,13 @@
         </div>
       </div>
     @empty
-      <p class="text-muted">まだトラックが登録されていません。</p>
+      <p class="text-muted mb-2">まだトラックが登録されていません。</p>
+      <p class="text-muted small mb-0">
+        キッチンカーが出店する場所は
+        <a href="{{ route('spots.index') }}">出店する場所の一覧</a>
+        で確認できます。お気に入りのトラックがあれば、
+        <a href="{{ route('trucks.create') }}">登録</a>して出店情報を共有できます。
+      </p>
     @endforelse
   </div>
 </div>

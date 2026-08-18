@@ -16,6 +16,17 @@
     <loc>{{ url('/trucks/create') }}</loc>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>{{ url('/spots') }}</loc>
+    <priority>0.9</priority>
+  </url>
+@foreach (($spots ?? []) as $spot)
+  <url>
+    <loc>{{ url("/spots/{$spot->id}") }}</loc>
+    <lastmod>{{ $spot->updated_at->toAtomString() }}</lastmod>
+    <priority>0.7</priority>
+  </url>
+@endforeach
 @foreach ($trucks as $truck)
   <url>
     <loc>{{ url("/trucks/{$truck->id}") }}</loc>

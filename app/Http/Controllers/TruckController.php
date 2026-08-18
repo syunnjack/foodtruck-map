@@ -84,7 +84,8 @@ class TruckController extends Controller
     public function sitemap()
     {
         $trucks = Truck::select('id', 'updated_at')->get();
-        $xml = view('sitemap', compact('trucks'))->render();
+        $spots = \App\Models\Spot::select('id', 'updated_at')->get();
+        $xml = view('sitemap', compact('trucks', 'spots'))->render();
 
         return response($xml, 200)->header('Content-Type', 'application/xml');
     }
