@@ -551,6 +551,60 @@
    "note": "区が試験的にキッチンカーの出店を行っています。さんさん広場が出店場所です。他の公園への拡大も検討されています。",
    "sourceUrl": "https://www.city.arakawa.tokyo.jp/a042/kitchen-car_yotei.html",
    "sourceLabel": "荒川区 公式サイト"
+  },
+  {
+   "name": "相模原市役所 本庁舎前広場",
+   "address": "神奈川県相模原市中央区中央2-11-15",
+   "area": "神奈川県相模原市中央区",
+   "hours": "午前11時〜午後1時30分ごろ",
+   "note": "市役所本庁舎前広場を活用したキッチンカーのモデル事業です。市役所の開庁日に出店します。",
+   "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/shiyakusyo/1033056.html",
+   "sourceLabel": "相模原市 公式サイト"
+  },
+  {
+   "name": "西東京市 保谷庁舎",
+   "address": "東京都西東京市中町一丁目5番1号",
+   "area": "東京都西東京市",
+   "hours": "",
+   "note": "保谷庁舎の敷地内2区画（市民広場前・スポーツセンター南側）にキッチンカーが出店します。1日最大2店舗です。市役所に用が無くても利用できます。",
+   "sourceUrl": "https://www.city.nishitokyo.lg.jp/sisetu/city/hoyachosha/kitchencar.html",
+   "sourceLabel": "西東京市 公式サイト"
+  },
+  {
+   "name": "各務原市役所 低層棟南広場",
+   "address": "岐阜県各務原市那加桜町1丁目69番地",
+   "area": "岐阜県各務原市",
+   "hours": "事業者ごとに異なります",
+   "note": "市役所の低層棟南広場に、月曜から金曜（閉庁日・年末年始を除く）キッチンカーが出店します。低層棟1階に飲食できる市民交流スペースがあります。",
+   "sourceUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisetsu/1019618/1019469.html",
+   "sourceLabel": "各務原市 公式サイト"
+  },
+  {
+   "name": "東村山市役所 本庁舎",
+   "address": "東京都東村山市本町1丁目2番地3",
+   "area": "東京都東村山市",
+   "hours": "平日 午前10時〜午後6時",
+   "note": "市役所本庁舎の敷地内にキッチンカーが出店します。準備・休憩時間を含む時間です。売り切れで早く終わることがあります。",
+   "sourceUrl": "https://www.city.higashimurayama.tokyo.jp/shisetsu/shi/shi/kitchen.html",
+   "sourceLabel": "東村山市 公式サイト"
+  },
+  {
+   "name": "日立市役所 大屋根広場",
+   "address": "茨城県日立市助川町1-1-1",
+   "area": "茨城県日立市",
+   "hours": "お昼の時間帯（土日祝を除く）",
+   "note": "市役所の大屋根広場（レストラン入口付近）にキッチンカーが出店します。出店時間は事業者ごとに異なります。",
+   "sourceUrl": "https://www.city.hitachi.lg.jp/shisei/shiyakusho_annai/1003241.html",
+   "sourceLabel": "日立市 公式サイト"
+  },
+  {
+   "name": "品川区役所 本庁舎3階プラッツァ",
+   "address": "東京都品川区広町2-1-36",
+   "area": "東京都品川区",
+   "hours": "午前11時〜午後2時",
+   "note": "区役所本庁舎3階のプラッツァに、水曜と金曜（8月・祝日・年末年始を除く）各日2店舗が出店します。実施期間は令和9年3月31日までです。",
+   "sourceUrl": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-koho/kuseizyoho-koho-sonota/20240705113954.html",
+   "sourceLabel": "品川区 公式サイト"
   }
  ]
 }

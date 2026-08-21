@@ -47,7 +47,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8584218,
-   "lng": 140.0584301
+   "lng": 140.0584301,
+   "geocodedFrom": "千葉県我孫子市岡発戸"
   },
   {
    "name": "利根川ゆうゆう公園",
@@ -58,7 +59,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8753708,
-   "lng": 140.1080414
+   "lng": 140.1080414,
+   "geocodedFrom": "千葉県我孫子市古戸"
   },
   {
    "name": "手賀沼公園",
@@ -69,7 +71,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8669073,
-   "lng": 140.0137939
+   "lng": 140.0137939,
+   "geocodedFrom": "千葉県我孫子市緑一丁目"
   },
   {
    "name": "気象台記念公園",
@@ -80,7 +83,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8647616,
-   "lng": 140.1111366
+   "lng": 140.1111366,
+   "geocodedFrom": "千葉県我孫子市新木野二丁目"
   },
   {
    "name": "湖北台中央公園",
@@ -91,7 +95,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8631092,
-   "lng": 140.0725838
+   "lng": 140.0725838,
+   "geocodedFrom": "千葉県我孫子市湖北台七丁目"
   },
   {
    "name": "高野山桃山公園",
@@ -102,7 +107,8 @@
    "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
    "sourceLabel": "我孫子市 公式サイト",
    "lat": 35.8630782,
-   "lng": 140.0380533
+   "lng": 140.0380533,
+   "geocodedFrom": "千葉県我孫子市高野山"
   },
   {
    "name": "さいたま市中央区役所",
@@ -210,6 +216,18 @@
    "lat": 34.808223,
    "lng": 135.470457,
    "geocodedFrom": "大阪府豊中市向丘二丁目"
+  },
+  {
+   "name": "各務原市役所 低層棟南広場",
+   "address": "岐阜県各務原市那加桜町1丁目69番地",
+   "area": "岐阜県各務原市",
+   "hours": "事業者ごとに異なります",
+   "note": "市役所の低層棟南広場に、月曜から金曜（閉庁日・年末年始を除く）キッチンカーが出店します。低層棟1階に飲食できる市民交流スペースがあります。",
+   "sourceUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisetsu/1019618/1019469.html",
+   "sourceLabel": "各務原市 公式サイト",
+   "lat": 35.398941,
+   "lng": 136.848633,
+   "geocodedFrom": "岐阜県各務原市那加桜町1丁目69番地"
   },
   {
    "name": "小峰公園",
@@ -473,6 +491,18 @@
    "lat": 35.714809,
    "lng": 139.776505,
    "geocodedFrom": "東京都台東区上野公園7-47"
+  },
+  {
+   "name": "品川区役所 本庁舎3階プラッツァ",
+   "address": "東京都品川区広町2-1-36",
+   "area": "東京都品川区",
+   "hours": "午前11時〜午後2時",
+   "note": "区役所本庁舎3階のプラッツァに、水曜と金曜（8月・祝日・年末年始を除く）各日2店舗が出店します。実施期間は令和9年3月31日までです。",
+   "sourceUrl": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-koho/kuseizyoho-koho-sonota/20240705113954.html",
+   "sourceLabel": "品川区 公式サイト",
+   "lat": 35.608822,
+   "lng": 139.729767,
+   "geocodedFrom": "東京都品川区広町2-1-36"
   },
   {
    "name": "林試の森公園",
@@ -751,6 +781,18 @@
    "geocodedFrom": "東京都東村山市富士見町5-4-67"
   },
   {
+   "name": "東村山市役所 本庁舎",
+   "address": "東京都東村山市本町1丁目2番地3",
+   "area": "東京都東村山市",
+   "hours": "平日 午前10時〜午後6時",
+   "note": "市役所本庁舎の敷地内にキッチンカーが出店します。準備・休憩時間を含む時間です。売り切れで早く終わることがあります。",
+   "sourceUrl": "https://www.city.higashimurayama.tokyo.jp/shisetsu/shi/shi/kitchen.html",
+   "sourceLabel": "東村山市 公式サイト",
+   "lat": 35.75449,
+   "lng": 139.468414,
+   "geocodedFrom": "東京都東村山市本町1丁目2番地3"
+  },
+  {
    "name": "浮間公園",
    "address": "東京都板橋区舟渡2-15-1",
    "area": "東京都板橋区",
@@ -1026,6 +1068,18 @@
    "geocodedFrom": "東京都葛飾区水元公園3-8"
   },
   {
+   "name": "西東京市 保谷庁舎",
+   "address": "東京都西東京市中町一丁目5番1号",
+   "area": "東京都西東京市",
+   "hours": "",
+   "note": "保谷庁舎の敷地内2区画（市民広場前・スポーツセンター南側）にキッチンカーが出店します。1日最大2店舗です。市役所に用が無くても利用できます。",
+   "sourceUrl": "https://www.city.nishitokyo.lg.jp/sisetu/city/hoyachosha/kitchencar.html",
+   "sourceLabel": "西東京市 公式サイト",
+   "lat": 35.741821,
+   "lng": 139.557983,
+   "geocodedFrom": "東京都西東京市中町一丁目5番1号"
+  },
+  {
    "name": "神代植物公園",
    "address": "東京都調布市深大寺元町31-10",
    "area": "東京都調布市",
@@ -1134,6 +1188,18 @@
    "geocodedFrom": "神奈川県川崎市麻生区王禅寺"
   },
   {
+   "name": "相模原市役所 本庁舎前広場",
+   "address": "神奈川県相模原市中央区中央2-11-15",
+   "area": "神奈川県相模原市中央区",
+   "hours": "午前11時〜午後1時30分ごろ",
+   "note": "市役所本庁舎前広場を活用したキッチンカーのモデル事業です。市役所の開庁日に出店します。",
+   "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/shiyakusyo/1033056.html",
+   "sourceLabel": "相模原市 公式サイト",
+   "lat": 35.571014,
+   "lng": 139.373825,
+   "geocodedFrom": "神奈川県相模原市中央区中央2-11-15"
+  },
+  {
    "name": "位瀬公園",
    "address": "福岡県春日市春日5丁目67番",
    "area": "福岡県春日市",
@@ -1168,6 +1234,18 @@
    "lat": 33.515392,
    "lng": 130.454605,
    "geocodedFrom": "福岡県春日市大字下白水219番1外"
+  },
+  {
+   "name": "日立市役所 大屋根広場",
+   "address": "茨城県日立市助川町1-1-1",
+   "area": "茨城県日立市",
+   "hours": "お昼の時間帯（土日祝を除く）",
+   "note": "市役所の大屋根広場（レストラン入口付近）にキッチンカーが出店します。出店時間は事業者ごとに異なります。",
+   "sourceUrl": "https://www.city.hitachi.lg.jp/shisei/shiyakusho_annai/1003241.html",
+   "sourceLabel": "日立市 公式サイト",
+   "lat": 36.599617,
+   "lng": 140.650436,
+   "geocodedFrom": "茨城県日立市助川町1-1-1"
   }
  ]
 }
