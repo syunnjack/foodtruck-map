@@ -3,6 +3,30 @@
  "asOf": "2026年8月21日 確認",
  "spots": [
   {
+   "name": "勝竜寺城公園",
+   "address": "京都府長岡京市勝竜寺",
+   "area": "京都府長岡京市",
+   "hours": "",
+   "note": "市が管理する都市公園のうち、キッチンカーが出店できる公園です。出店には市への登録と行為許可が必要で、登録した事業者が出店します。",
+   "sourceUrl": "https://www.city.nagaokakyo.lg.jp/0000015930.html",
+   "sourceLabel": "長岡京市 公式サイト",
+   "lat": 34.918066,
+   "lng": 135.700726,
+   "geocodedFrom": "京都府長岡京市勝竜寺"
+  },
+  {
+   "name": "長岡公園",
+   "address": "京都府長岡京市天神二丁目",
+   "area": "京都府長岡京市",
+   "hours": "",
+   "note": "市が管理する都市公園のうち、キッチンカーが出店できる公園です。出店には市への登録と行為許可が必要で、登録した事業者が出店します。",
+   "sourceUrl": "https://www.city.nagaokakyo.lg.jp/0000015930.html",
+   "sourceLabel": "長岡京市 公式サイト",
+   "lat": 34.922254,
+   "lng": 135.685834,
+   "geocodedFrom": "京都府長岡京市天神二丁目"
+  },
+  {
    "name": "内みのわ運動公園",
    "address": "千葉県君津市内箕輪",
    "area": "千葉県君津市",
@@ -13,6 +37,72 @@
    "lat": 35.324245,
    "lng": 139.92804,
    "geocodedFrom": "千葉県君津市内箕輪"
+  },
+  {
+   "name": "五本松公園",
+   "address": "千葉県我孫子市岡発戸",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8584218,
+   "lng": 140.0584301
+  },
+  {
+   "name": "利根川ゆうゆう公園",
+   "address": "千葉県我孫子市古戸",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8753708,
+   "lng": 140.1080414
+  },
+  {
+   "name": "手賀沼公園",
+   "address": "千葉県我孫子市緑一丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8669073,
+   "lng": 140.0137939
+  },
+  {
+   "name": "気象台記念公園",
+   "address": "千葉県我孫子市新木野二丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8647616,
+   "lng": 140.1111366
+  },
+  {
+   "name": "湖北台中央公園",
+   "address": "千葉県我孫子市湖北台七丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8631092,
+   "lng": 140.0725838
+  },
+  {
+   "name": "高野山桃山公園",
+   "address": "千葉県我孫子市高野山",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8630782,
+   "lng": 140.0380533
   },
   {
    "name": "さいたま市中央区役所",
@@ -48,6 +138,78 @@
    "lat": 35.99651,
    "lng": 139.373322,
    "geocodedFrom": "埼玉県東松山市岩殿554"
+  },
+  {
+   "name": "ふれあい緑地",
+   "address": "大阪府豊中市服部西町五丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.761333,
+   "lng": 135.465411,
+   "geocodedFrom": "大阪府豊中市服部西町五丁目"
+  },
+  {
+   "name": "大塚公園",
+   "address": "大阪府豊中市中桜塚四丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.779403,
+   "lng": 135.472668,
+   "geocodedFrom": "大阪府豊中市中桜塚四丁目"
+  },
+  {
+   "name": "樫ノ木公園",
+   "address": "大阪府豊中市新千里北町三丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.816751,
+   "lng": 135.501637,
+   "geocodedFrom": "大阪府豊中市新千里北町三丁目"
+  },
+  {
+   "name": "豊島公園",
+   "address": "大阪府豊中市曽根南町一丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.767453,
+   "lng": 135.470741,
+   "geocodedFrom": "大阪府豊中市曽根南町一丁目"
+  },
+  {
+   "name": "野田中央公園",
+   "address": "大阪府豊中市野田町",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.755454,
+   "lng": 135.472485,
+   "geocodedFrom": "大阪府豊中市野田町"
+  },
+  {
+   "name": "野畑南公園",
+   "address": "大阪府豊中市向丘二丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.808223,
+   "lng": 135.470457,
+   "geocodedFrom": "大阪府豊中市向丘二丁目"
   },
   {
    "name": "小峰公園",
@@ -840,6 +1002,18 @@
    "geocodedFrom": "東京都荒川区南千住8-13-1"
   },
   {
+   "name": "荒川自然公園",
+   "address": "東京都荒川区荒川八丁目25番3号",
+   "area": "東京都荒川区",
+   "hours": "",
+   "note": "区が試験的にキッチンカーの出店を行っています。さんさん広場が出店場所です。他の公園への拡大も検討されています。",
+   "sourceUrl": "https://www.city.arakawa.tokyo.jp/a042/kitchen-car_yotei.html",
+   "sourceLabel": "荒川区 公式サイト",
+   "lat": 35.741524,
+   "lng": 139.788971,
+   "geocodedFrom": "東京都荒川区荒川八丁目25番3号"
+  },
+  {
    "name": "水元公園",
    "address": "東京都葛飾区水元公園3-8",
    "area": "東京都葛飾区",
@@ -874,6 +1048,90 @@
    "lat": 35.798332,
    "lng": 139.768463,
    "geocodedFrom": "東京都足立区舎人公園1-1"
+  },
+  {
+   "name": "インターパーク中央公園",
+   "address": "栃木県宇都宮市インターパーク二丁目",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.497723,
+   "lng": 139.907437,
+   "geocodedFrom": "栃木県宇都宮市インターパーク二丁目"
+  },
+  {
+   "name": "宇都宮城址公園",
+   "address": "栃木県宇都宮市本丸町",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。みどりの小径が出店場所です。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.554502,
+   "lng": 139.885317,
+   "geocodedFrom": "栃木県宇都宮市本丸町"
+  },
+  {
+   "name": "水上公園",
+   "address": "栃木県宇都宮市錦三丁目",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.573992,
+   "lng": 139.893719,
+   "geocodedFrom": "栃木県宇都宮市錦三丁目"
+  },
+  {
+   "name": "稲田公園",
+   "address": "神奈川県川崎市多摩区菅稲田堤二丁目",
+   "area": "神奈川県川崎市多摩区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.637344,
+   "lng": 139.536338,
+   "geocodedFrom": "神奈川県川崎市多摩区菅稲田堤二丁目"
+  },
+  {
+   "name": "宮崎第4公園",
+   "address": "神奈川県川崎市宮前区宮崎六丁目",
+   "area": "神奈川県川崎市宮前区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.591005,
+   "lng": 139.583972,
+   "geocodedFrom": "神奈川県川崎市宮前区宮崎六丁目"
+  },
+  {
+   "name": "南河原公園",
+   "address": "神奈川県川崎市幸区都町",
+   "area": "神奈川県川崎市幸区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.537112,
+   "lng": 139.689472,
+   "geocodedFrom": "神奈川県川崎市幸区都町"
+  },
+  {
+   "name": "王禅寺ふるさと公園",
+   "address": "神奈川県川崎市麻生区王禅寺",
+   "area": "神奈川県川崎市麻生区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.58555,
+   "lng": 139.517906,
+   "geocodedFrom": "神奈川県川崎市麻生区王禅寺"
   },
   {
    "name": "位瀬公園",
