@@ -1,7 +1,7 @@
 @extends('layouts.plain')
 
 @section('title', config('app.name') . ' | 今日どこにいるかがわかるフードトラック・キッチンカーマップ')
-@section('description', '全国のフードトラック・キッチンカーの出店情報を投稿型マップで確認できます。現在地から近い出店をワンタップで見つけられ、お気に入りのトラックをフォローすると新しい出店情報がLINEで届きます。')
+@section('description', '自治体や公園の管理者が公表しているキッチンカーの出店場所を、住所と出典つきで地図に載せています。現在地から近い場所を探せます。')
 
 @push('structured-data')
 <script type="application/ld+json">
@@ -31,7 +31,11 @@
   </div>
   <p id="locateMessage" class="text-center text-muted small mb-3"></p>
 
-  <div id="map" data-slots="{{ $slots->map(fn ($s) => ['id' => $s->id, 'truck_id' => $s->truck->id, 'truck_name' => $s->truck->name, 'area' => $s->area, 'lat' => $s->lat, 'lng' => $s->lng, 'date' => $s->appearance_date->format('n/j'), 'start' => substr($s->start_time, 0, 5), 'end' => substr($s->end_time, 0, 5)])->toJson() }}" style="height: 360px;" class="rounded shadow-sm border mb-4"></div>
+  @php($spotList = ($spots ?? collect()))
+  <div id="map"
+       data-slots="{{ $slots->map(fn ($s) => ['id' => $s->id, 'truck_id' => $s->truck->id, 'truck_name' => $s->truck->name, 'area' => $s->area, 'lat' => $s->lat, 'lng' => $s->lng, 'date' => $s->appearance_date->format('n/j'), 'start' => substr($s->start_time, 0, 5), 'end' => substr($s->end_time, 0, 5)])->toJson() }}"
+       data-spots="{{ $spotList->map(fn ($s) => ['id' => $s->id, 'name' => $s->name, 'area' => $s->area, 'lat' => $s->lat, 'lng' => $s->lng])->toJson() }}"
+       style="height: 360px;" class="rounded shadow-sm border mb-4"></div>
 
   <form method="GET" action="{{ route('appearances.index') }}" class="row g-2 mb-4">
     <div class="col-md-4">
@@ -69,8 +73,34 @@
         </div>
       </div>
     @empty
-      <p class="text-muted">現在、投稿されている出店予定がありません。</p>
+      <p class="text-muted">
+        利用者からの出店予定の投稿は、まだありません。
+        下の「自治体が公表している出店場所」からお探しください。
+      </p>
     @endforelse
+  </div>
+
+  <h2 class="h5 mt-4">自治体が公表している出店場所（{{ $spotList->count() }}か所）</h2>
+  <p class="text-muted small">
+    自治体や公園の管理者が、キッチンカーの出店を実施していると公表している場所です。
+    どの店がいつ来るかは各自治体が毎月更新するため、お出かけ前に出典先でご確認ください。
+  </p>
+
+  <div class="row">
+    @foreach($spotList->groupBy('area') as $areaName => $areaSpots)
+      <div class="col-md-6 col-lg-4 mb-3">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body">
+            <h3 class="h6 card-title">{{ $areaName }}<span class="badge bg-secondary float-end">{{ $areaSpots->count() }}か所</span></h3>
+            <ul class="list-unstyled mb-0 small">
+              @foreach($areaSpots as $spot)
+                <li><a href="{{ route('spots.show', $spot) }}" class="text-decoration-none">{{ $spot->name }}</a></li>
+              @endforeach
+            </ul>
+          </div>
+        </div>
+      </div>
+    @endforeach
   </div>
 </div>
 @endsection
@@ -92,6 +122,19 @@
       L.marker([s.lat, s.lng]).addTo(map)
         .bindPopup('<a href="/trucks/' + s.truck_id + '">' + s.truck_name + '</a><br><small>' + s.area + ' ' + s.date + ' ' + s.start + '〜' + s.end + '</small>');
     });
+
+    // 自治体が公表している出店場所。投稿と見分けがつくよう、丸い印にする。
+    const spots = JSON.parse(mapEl.dataset.spots || '[]');
+    spots.forEach(function (s) {
+      L.circleMarker([s.lat, s.lng], {
+        radius: 7, color: '#e0562b', weight: 2, fillColor: '#e0562b', fillOpacity: 0.65
+      }).addTo(map)
+        .bindPopup('<a href="/spots/' + s.id + '">' + s.name + '</a><br><small>' + s.area + '</small>');
+    });
+
+    if (slots.length === 0 && spots.length > 0) {
+      map.fitBounds(spots.map(function (s) { return [s.lat, s.lng]; }), { padding: [24, 24] });
+    }
 
     function haversineKm(lat1, lng1, lat2, lng2) {
       const R = 6371;
