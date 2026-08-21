@@ -15,7 +15,7 @@ jobs:
   import:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Upload app code via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
