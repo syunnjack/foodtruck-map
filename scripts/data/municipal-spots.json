@@ -680,6 +680,33 @@
    "sourceLabel": "秋田市 公式サイト",
    "lat": 39.657325,
    "lng": 140.157014
+  },
+  {
+   "name": "埼玉県庁舎",
+   "address": "埼玉県さいたま市浦和区高砂3-15-1",
+   "area": "埼玉県さいたま市浦和区",
+   "hours": "11時〜14時を中心（出店者による）",
+   "note": "令和8年8月17日から、県庁舎で月曜から金曜（祝日・年末年始を除く）日替わりでキッチンカーが出店します。出店場所は本庁舎東側玄関前と第二庁舎南玄関前です。",
+   "sourceUrl": "https://www.pref.saitama.lg.jp/a0205/news/page/news2026081702.html",
+   "sourceLabel": "埼玉県 公式サイト"
+  },
+  {
+   "name": "道の駅しょうなん",
+   "address": "千葉県柏市箕輪新田59-2",
+   "area": "千葉県柏市",
+   "hours": "",
+   "note": "道の駅がキッチンカーの出店予定を毎月公開しています。てんと棟エリアなどに出店します。",
+   "sourceUrl": "https://www.michinoeki-shonan.jp/news/659/",
+   "sourceLabel": "道の駅しょうなん 公式サイト"
+  },
+  {
+   "name": "道の駅とよはし",
+   "address": "愛知県豊橋市東七根町字一の沢113番地2",
+   "area": "愛知県豊橋市",
+   "hours": "",
+   "note": "道の駅が屋外テラスでのキッチンカー出店者を募集しています。マルシェやイベント以外の日にも出店があります。",
+   "sourceUrl": "https://michinoeki-toyohashi.jp/special05",
+   "sourceLabel": "道の駅とよはし 公式サイト"
   }
  ]
 }
