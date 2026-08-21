@@ -22,3 +22,9 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+
+# 取得元の資料の控え（再取得できるので追跡しない）
+scripts/.cache/
+
+__pycache__/
+*.pyc

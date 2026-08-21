@@ -1,59 +1,105 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# foodtruck-map（foodtruck-map.jp）
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+キッチンカーが出店する場所を、住所と出典つきでまとめた地図。
 
-## About Laravel
+- 本番URL: https://foodtruck-map.jp
+- 配信: Xserver（`/home/xs501620/foodtruck-map.jp/`）
+- Laravel。`public_html` は公開ディレクトリ、`app/` にアプリ本体
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## デプロイの癖（先に読むこと）
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**通常のデプロイ（`deploy.yml`）は `public/` と `resources/` しか送りません。**
+`app/` `routes/` `database/` はサーバーに届きません。
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+このため、ビューから新しいルートやモデルを参照すると、本番だけ500になります
+（実際にトップとトラック一覧を落としたことがあります）。ビューが新しい
+ルートに触れるときは `Route::has()` で存在を確認してから使ってください。
 
-## Learning Laravel
+`app/` `routes/` `database/` を送って migrate と seed まで流すのは
+**`import-data.yml`（手動実行）** です。出店場所のデータを更新したら、
+これを実行しないと本番に反映されません。
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 掲載しているデータ
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+自治体・公園管理者が公式に公表している出店場所だけを載せています。
+推測で埋めることはしません。日々の出店予定は自治体が毎月更新するため
+持たず、出典先の公式ページへ案内します。
 
-## Laravel Sponsors
+合計115か所・51市区町村・12都道府県（東京77／千葉8／大阪6／神奈川6／埼玉4／
+栃木3／福岡3／秋田3／京都2／岐阜1／愛知1／茨城1）。
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+いちばん大きい出典は、公益財団法人 東京都公園協会の募集要項（都立公園46か所）です。
 
-### Premium Partners
+出店場所には4つの型があります。
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- **公園**: 自治体が公園のにぎわいづくりのために誘致しているもの
+- **庁舎**: 市役所・区役所・県庁の広場に平日の昼に出るもの（公園より続きやすい）
+- **公園管理者の施設**: 動物園など、指定管理者が誘致しているもの
+- **道の駅**: 屋外テラスや駐車場に出るもの
 
-## Contributing
+### データの作り直し
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
+python scripts/build-spots.py
+```
 
-## Code of Conduct
+- `scripts/fetch-tokyo-parks.py` が都立公園の一覧を募集要項のPDFから取ります
+- `scripts/data/municipal-spots.json` は、自治体ごとにページの作りが違って
+  機械で取れないため、確認した内容を手で置いてあります
+- 座標は国土地理院の住所検索APIで取ります。すでに座標のある行は引き直しません
+- 出力先は `database/data/spots.json`
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+`scripts/lib/pdf_text.py` は、poppler も pypdf も入らない環境で PDF の本文を
+読むために自前で書いたものです。ToUnicode を持たないPDF（名古屋市の仕様書など）は
+読めません。
 
-## Security Vulnerabilities
+### 全国展開が進みにくい理由
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+**出店場所の一覧をまとめて公表している自治体は、多くありません。**
+「今月の出店予定」を毎月PDFで出すだけか、そもそも公表していない例がほとんどです。
+東京都公園協会の募集要項は例外的に、住所つきの一覧が載っています。
 
-## License
+探すときは、自治体が実際に使う言い回しで検索すると公式ページが見つかります。
+一般的な語（「公園 キッチンカー 出店場所」など）だと民間の掲載サービスばかり出ます。
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- 「公園にキッチンカーが出店しています」
+- 「キッチンカーが出店します」＋庁舎
+- 「令和8年度 キッチンカー 出店者募集 対象公園」
+- 「県庁舎 キッチンカー 出店」
+
+載せなかった例:
+
+- 横浜市（大通り公園・里山ガーデン）と和泉市は、試行が終わりページごと消えていた
+- 川崎市の社会実験第3弾（7公園）は終了。現行の本格運用は4公園なのでそちらを載せた
+- 名古屋市は提案募集で対象公園が固定されておらず、仕様書PDFも ToUnicode を
+  持たないため読めなかった
+- いわき市・焼津市は「申請すればどの公園でも可」で、対象が定まっていない
+- 宮崎県総合文化公園は募集期間が令和8年3月で終了していた
+- 岡山市「Food Park(ing)」は令和4年度の事業
+- 国営昭和記念公園はイベント単位で、常設の出店場所ではない
+- UR都市機構は事業者募集のページだけで、団地の一覧が無い
+- ほこみち（歩行者利便増進道路）171路線は「出店できる道路」であって
+  「出店している場所」ではない
+- 札幌市・仙台市・広島市は公式の出店場所一覧が見つからなかった
+
+期限のあるもの（次に触るとき要確認）:
+
+- 福岡県春日市の3か所は、実証実験が2026年9月30日で終了予定
+- 品川区役所・八王子市役所は、いずれも令和9年3月31日までの試行
+
+### 位置の出し方に注意
+
+**国土地理院の住所検索APIは、公園名を渡すと別の県を返すことがあります**
+（南河原公園→埼玉県行田市、稲田公園→福島県須賀川市）。
+公園名しか分からないときは、OpenStreetMap で市区町村を絞って座標を取り、
+国土地理院の逆ジオコーダで住所に直してください。
+
+## 掲載訂正・削除
+
+`info@foodtruck-map.jp`。画面にも表示しています。
+
+## Commands
+
+- `php artisan serve`: 開発サーバー
+- `php artisan migrate`: マイグレーション
+- `php artisan db:seed --class=SpotSeeder`: 出店場所の取り込み

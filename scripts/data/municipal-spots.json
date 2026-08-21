@@ -1,0 +1,712 @@
+{
+ "note": "自治体の公式ページで確認した、キッチンカーの出店場所。ページの作りが自治体ごとに違うため、機械では取れず、確認した内容をここに置いている。都立公園は scripts/fetch-tokyo-parks.py が公園協会の資料から取る。",
+ "asOf": "2026年8月21日 確認",
+ "spots": [
+  {
+   "name": "井草森公園",
+   "address": "東京都杉並区井草4丁目12番1号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.726555,
+   "lng": 139.611816
+  },
+  {
+   "name": "柏の宮公園",
+   "address": "東京都杉並区浜田山2丁目5番1号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.67672,
+   "lng": 139.626053
+  },
+  {
+   "name": "蚕糸の森公園",
+   "address": "東京都杉並区和田3丁目55番30号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.69791,
+   "lng": 139.655792
+  },
+  {
+   "name": "下高井戸おおぞら公園",
+   "address": "東京都杉並区下高井戸2丁目28番23号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.670647,
+   "lng": 139.636475
+  },
+  {
+   "name": "塚山公園",
+   "address": "東京都杉並区下高井戸5丁目23番12号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.674896,
+   "lng": 139.62442
+  },
+  {
+   "name": "馬橋公園",
+   "address": "東京都杉並区高円寺北4丁目35番5号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.709549,
+   "lng": 139.642975
+  },
+  {
+   "name": "桃井原っぱ公園",
+   "address": "東京都杉並区桃井3丁目8番1号",
+   "area": "東京都杉並区",
+   "hours": "午前10時〜午後4時30分",
+   "note": "区立公園のにぎわい創出のため、区が移動販売車の出店を実施しています。出店日は月ごとのPDFで公開されます。",
+   "sourceUrl": "https://www.city.suginami.tokyo.jp/s100/1623.html",
+   "sourceLabel": "杉並区 公式サイト",
+   "lat": 35.712906,
+   "lng": 139.607483
+  },
+  {
+   "name": "二子玉川公園",
+   "address": "東京都世田谷区玉川1-16-1",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.608452,
+   "lng": 139.632568
+  },
+  {
+   "name": "玉川野毛町公園",
+   "address": "東京都世田谷区野毛1-25-1",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.605839,
+   "lng": 139.641632
+  },
+  {
+   "name": "羽根木公園",
+   "address": "東京都世田谷区代田4-38-52",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.66008,
+   "lng": 139.65509
+  },
+  {
+   "name": "きたみふれあい広場",
+   "address": "東京都世田谷区喜多見9-25-5",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.638168,
+   "lng": 139.589096
+  },
+  {
+   "name": "大蔵運動公園",
+   "address": "東京都世田谷区大蔵4-6-1",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.628792,
+   "lng": 139.61441
+  },
+  {
+   "name": "希望丘公園",
+   "address": "東京都世田谷区船橋7-9-2",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.658066,
+   "lng": 139.61824
+  },
+  {
+   "name": "代沢せせらぎ公園",
+   "address": "東京都世田谷区代沢4-36-1",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.653713,
+   "lng": 139.671524
+  },
+  {
+   "name": "若林公園",
+   "address": "東京都世田谷区若林4-34-2",
+   "area": "東京都世田谷区",
+   "note": "世田谷区が株式会社Mellowと連携し、令和3年3月から区有地で移動販売を実施しています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.646519,
+   "lng": 139.654846
+  },
+  {
+   "name": "JRA馬事公苑前けやき広場",
+   "address": "東京都世田谷区上用賀2-3-4",
+   "area": "東京都世田谷区",
+   "note": "キッチンカーのほか、鮮魚・花・自転車修理の移動販売も出ています。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.639172,
+   "lng": 139.632416
+  },
+  {
+   "name": "世田谷区役所本庁舎",
+   "address": "東京都世田谷区世田谷4-21-27",
+   "area": "東京都世田谷区",
+   "note": "区有地での移動販売の実施場所です。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.646297,
+   "lng": 139.653458
+  },
+  {
+   "name": "喜多見まちづくりセンター",
+   "address": "東京都世田谷区喜多見5-11-10",
+   "area": "東京都世田谷区",
+   "note": "区有地での移動販売の実施場所です。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.628948,
+   "lng": 139.60112
+  },
+  {
+   "name": "上用賀五丁目アパート",
+   "address": "東京都世田谷区上用賀5-14-1",
+   "area": "東京都世田谷区",
+   "note": "区営住宅での移動販売の実施場所です。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.629971,
+   "lng": 139.626434
+  },
+  {
+   "name": "世田谷区立教育総合センター",
+   "address": "東京都世田谷区若林5-38-1",
+   "area": "東京都世田谷区",
+   "note": "区有地での移動販売の実施場所です。出店日と時間はSHOP STOPアプリか区の月別PDFで確認できます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/03647/4992.html",
+   "sourceLabel": "世田谷区 公式サイト",
+   "lat": 35.650192,
+   "lng": 139.659286
+  },
+  {
+   "name": "市民の森・見沼グリーンセンター",
+   "address": "埼玉県さいたま市見沼区見沼3-8",
+   "area": "埼玉県さいたま市",
+   "hours": "土日祝の10時頃〜16時頃",
+   "note": "芝生広場の北側・南側と、見沼グリーンセンター本館の南側にキッチンカーが出店します。",
+   "sourceUrl": "https://www.city.saitama.lg.jp/004/006/008/p087788.html",
+   "sourceLabel": "さいたま市 公式サイト",
+   "lat": 35.896145,
+   "lng": 139.68042
+  },
+  {
+   "name": "さいたま市中央区役所",
+   "address": "埼玉県さいたま市中央区下落合5-7-10",
+   "area": "埼玉県さいたま市",
+   "note": "区役所の敷地内でキッチンカーの移動販売が実施されています。実施日は区のページで案内されます。",
+   "sourceUrl": "https://www.city.saitama.lg.jp/chuo/003/p095745.html",
+   "sourceLabel": "さいたま市 公式サイト",
+   "lat": 35.883789,
+   "lng": 139.626755
+  },
+  {
+   "name": "芹ヶ谷公園",
+   "address": "東京都町田市原町田5-16",
+   "area": "東京都町田市",
+   "note": "町田市が公園でのキッチンカー出店を実施しています。出店のある公園と出店日は市のページで毎月更新されます。",
+   "sourceUrl": "https://www.city.machida.tokyo.jp/bunka/park/kitchencar/2022kitchencarshuttenjouhou.html",
+   "sourceLabel": "町田市 公式サイト",
+   "lat": 35.546329,
+   "lng": 139.452759
+  },
+  {
+   "name": "世田谷公園",
+   "address": "東京都世田谷区池尻1-5-27",
+   "area": "東京都世田谷区",
+   "hours": "",
+   "note": "区立公園のにぎわいづくりのため、区がキッチンカーの出店を実施しています。出店日は区の公式ページで案内されます。",
+   "sourceUrl": "https://www.city.setagaya.lg.jp/02075/4887.html",
+   "sourceLabel": "世田谷区 公式サイト"
+  },
+  {
+   "name": "行船公園",
+   "address": "東京都江戸川区北葛西3-2-1",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。出店予定の公園と日程は、区が毎月PDFで公開します。都合により中止になることがあります。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencar.html",
+   "sourceLabel": "江戸川区 公式サイト"
+  },
+  {
+   "name": "新川桜橋ひろば",
+   "address": "東京都江戸川区船堀7-16",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。出店予定の公園と日程は、区が毎月PDFで公開します。都合により中止になることがあります。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencar.html",
+   "sourceLabel": "江戸川区 公式サイト"
+  },
+  {
+   "name": "埼玉県こども動物自然公園",
+   "address": "埼玉県東松山市岩殿554",
+   "area": "埼玉県東松山市",
+   "hours": "",
+   "note": "園内にキッチンカーが出店します。出店日は店舗ごとに異なり、協会が毎月の予定を公開します。天候不良や出店者の事情で中止になることがあります。",
+   "sourceUrl": "https://www.parks.or.jp/sczoo/guide/006/006053.html",
+   "sourceLabel": "公益財団法人 埼玉県公園緑地協会"
+  },
+  {
+   "name": "内みのわ運動公園",
+   "address": "千葉県君津市内箕輪",
+   "area": "千葉県君津市",
+   "hours": "",
+   "note": "公園利用者の利便性向上のため、市がキッチンカーの出店ルールを定めています。登録した事業者が出店します。",
+   "sourceUrl": "https://www.city.kimitsu.lg.jp/soshiki/31/59616.html",
+   "sourceLabel": "君津市 公式サイト"
+  },
+  {
+   "name": "白水大池公園",
+   "address": "福岡県春日市大字下白水219番1外",
+   "area": "福岡県春日市",
+   "hours": "午前9時〜午後7時",
+   "note": "市が公園内でのキッチンカー出店の実証実験を行っています。北側エリアが出店場所です。実証実験は2026年9月30日で終了予定です。",
+   "sourceUrl": "https://www.city.kasuga.fukuoka.jp/shisetsu/park/1014970.html",
+   "sourceLabel": "春日市 公式サイト"
+  },
+  {
+   "name": "春日西多目的広場公園",
+   "address": "福岡県春日市白水ヶ丘6丁目122番外",
+   "area": "福岡県春日市",
+   "hours": "午前9時〜午後7時",
+   "note": "市が公園内でのキッチンカー出店の実証実験を行っています。駐車場が出店場所です。実証実験は2026年9月30日で終了予定です。",
+   "sourceUrl": "https://www.city.kasuga.fukuoka.jp/shisetsu/park/1014970.html",
+   "sourceLabel": "春日市 公式サイト"
+  },
+  {
+   "name": "位瀬公園",
+   "address": "福岡県春日市春日5丁目67番",
+   "area": "福岡県春日市",
+   "hours": "午前9時〜午後7時",
+   "note": "市が公園内でのキッチンカー出店の実証実験を行っています。実証実験は2026年9月30日で終了予定です。",
+   "sourceUrl": "https://www.city.kasuga.fukuoka.jp/shisetsu/park/1014970.html",
+   "sourceLabel": "春日市 公式サイト"
+  },
+  {
+   "name": "南河原公園",
+   "address": "神奈川県川崎市幸区都町",
+   "area": "神奈川県川崎市幸区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.537112,
+   "lng": 139.689472
+  },
+  {
+   "name": "宮崎第4公園",
+   "address": "神奈川県川崎市宮前区宮崎六丁目",
+   "area": "神奈川県川崎市宮前区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.591005,
+   "lng": 139.583972
+  },
+  {
+   "name": "稲田公園",
+   "address": "神奈川県川崎市多摩区菅稲田堤二丁目",
+   "area": "神奈川県川崎市多摩区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.637344,
+   "lng": 139.536338
+  },
+  {
+   "name": "王禅寺ふるさと公園",
+   "address": "神奈川県川崎市麻生区王禅寺",
+   "area": "神奈川県川崎市麻生区",
+   "hours": "",
+   "note": "市の取組「KAWASAKI PARK CARAVAN」の対象公園です。日常的にキッチンカーや物販の出店があります。1公園あたり同時に2店舗までです。",
+   "sourceUrl": "https://www.city.kawasaki.jp/530/page/0000165972.html",
+   "sourceLabel": "川崎市 公式サイト",
+   "lat": 35.58555,
+   "lng": 139.517906
+  },
+  {
+   "name": "宇都宮城址公園",
+   "address": "栃木県宇都宮市本丸町",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。みどりの小径が出店場所です。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.554502,
+   "lng": 139.885317
+  },
+  {
+   "name": "水上公園",
+   "address": "栃木県宇都宮市錦三丁目",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.573992,
+   "lng": 139.893719
+  },
+  {
+   "name": "インターパーク中央公園",
+   "address": "栃木県宇都宮市インターパーク二丁目",
+   "area": "栃木県宇都宮市",
+   "hours": "",
+   "note": "市が管理する都市公園で、市がキッチンカーの出店を実施しています。出店予定は市が公開するカレンダーで案内されます。急に変更になることがあります。",
+   "sourceUrl": "https://www.city.utsunomiya.lg.jp/kurashi/machi/1020735/1032737/1036444.html",
+   "sourceLabel": "宇都宮市 公式サイト",
+   "lat": 36.497723,
+   "lng": 139.907437
+  },
+  {
+   "name": "長岡公園",
+   "address": "京都府長岡京市天神二丁目",
+   "area": "京都府長岡京市",
+   "hours": "",
+   "note": "市が管理する都市公園のうち、キッチンカーが出店できる公園です。出店には市への登録と行為許可が必要で、登録した事業者が出店します。",
+   "sourceUrl": "https://www.city.nagaokakyo.lg.jp/0000015930.html",
+   "sourceLabel": "長岡京市 公式サイト",
+   "lat": 34.922254,
+   "lng": 135.685834
+  },
+  {
+   "name": "勝竜寺城公園",
+   "address": "京都府長岡京市勝竜寺",
+   "area": "京都府長岡京市",
+   "hours": "",
+   "note": "市が管理する都市公園のうち、キッチンカーが出店できる公園です。出店には市への登録と行為許可が必要で、登録した事業者が出店します。",
+   "sourceUrl": "https://www.city.nagaokakyo.lg.jp/0000015930.html",
+   "sourceLabel": "長岡京市 公式サイト",
+   "lat": 34.918066,
+   "lng": 135.700726
+  },
+  {
+   "name": "樫ノ木公園",
+   "address": "大阪府豊中市新千里北町三丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.816751,
+   "lng": 135.501637
+  },
+  {
+   "name": "豊島公園",
+   "address": "大阪府豊中市曽根南町一丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.767453,
+   "lng": 135.470741
+  },
+  {
+   "name": "野田中央公園",
+   "address": "大阪府豊中市野田町",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.755454,
+   "lng": 135.472485
+  },
+  {
+   "name": "野畑南公園",
+   "address": "大阪府豊中市向丘二丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.808223,
+   "lng": 135.470457
+  },
+  {
+   "name": "ふれあい緑地",
+   "address": "大阪府豊中市服部西町五丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.761333,
+   "lng": 135.465411
+  },
+  {
+   "name": "大塚公園",
+   "address": "大阪府豊中市中桜塚四丁目",
+   "area": "大阪府豊中市",
+   "hours": "",
+   "note": "市が事業者と基本協定を結び、都市公園でのキッチンカー出店事業を行っています。出店状況は事業者のページで案内されます。",
+   "sourceUrl": "https://www.city.toyonaka.osaka.jp/machi/kouen_midori/kouen_torikumi/R7kitchencar.html",
+   "sourceLabel": "豊中市 公式サイト",
+   "lat": 34.779403,
+   "lng": 135.472668
+  },
+  {
+   "name": "手賀沼公園",
+   "address": "千葉県我孫子市緑一丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8669073,
+   "lng": 140.0137939
+  },
+  {
+   "name": "高野山桃山公園",
+   "address": "千葉県我孫子市高野山",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8630782,
+   "lng": 140.0380533
+  },
+  {
+   "name": "利根川ゆうゆう公園",
+   "address": "千葉県我孫子市古戸",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8753708,
+   "lng": 140.1080414
+  },
+  {
+   "name": "五本松公園",
+   "address": "千葉県我孫子市岡発戸",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8584218,
+   "lng": 140.0584301
+  },
+  {
+   "name": "湖北台中央公園",
+   "address": "千葉県我孫子市湖北台七丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8631092,
+   "lng": 140.0725838
+  },
+  {
+   "name": "気象台記念公園",
+   "address": "千葉県我孫子市新木野二丁目",
+   "area": "千葉県我孫子市",
+   "hours": "午前10時〜午後4時",
+   "note": "市が公園内での移動販売（キッチンカー）の出店者を募集しています。出店できるのは令和8年4月1日から令和9年3月31日までで、市の事業などで出店できない日もあります。",
+   "sourceUrl": "https://www.city.abiko.chiba.jp/event/shizennonaka/kouenryokuchi/park/kouenkitchencar.html",
+   "sourceLabel": "我孫子市 公式サイト",
+   "lat": 35.8647616,
+   "lng": 140.1111366
+  },
+  {
+   "name": "荒川自然公園",
+   "address": "東京都荒川区荒川八丁目25番3号",
+   "area": "東京都荒川区",
+   "hours": "",
+   "note": "区が試験的にキッチンカーの出店を行っています。さんさん広場が出店場所です。他の公園への拡大も検討されています。",
+   "sourceUrl": "https://www.city.arakawa.tokyo.jp/a042/kitchen-car_yotei.html",
+   "sourceLabel": "荒川区 公式サイト"
+  },
+  {
+   "name": "相模原市役所 本庁舎前広場",
+   "address": "神奈川県相模原市中央区中央2-11-15",
+   "area": "神奈川県相模原市中央区",
+   "hours": "午前11時〜午後1時30分ごろ",
+   "note": "市役所本庁舎前広場を活用したキッチンカーのモデル事業です。市役所の開庁日に出店します。",
+   "sourceUrl": "https://www.city.sagamihara.kanagawa.jp/kurashi/shisetsu/shikanren/shiyakusyo/1033056.html",
+   "sourceLabel": "相模原市 公式サイト"
+  },
+  {
+   "name": "西東京市 保谷庁舎",
+   "address": "東京都西東京市中町一丁目5番1号",
+   "area": "東京都西東京市",
+   "hours": "",
+   "note": "保谷庁舎の敷地内2区画（市民広場前・スポーツセンター南側）にキッチンカーが出店します。1日最大2店舗です。市役所に用が無くても利用できます。",
+   "sourceUrl": "https://www.city.nishitokyo.lg.jp/sisetu/city/hoyachosha/kitchencar.html",
+   "sourceLabel": "西東京市 公式サイト"
+  },
+  {
+   "name": "各務原市役所 低層棟南広場",
+   "address": "岐阜県各務原市那加桜町1丁目69番地",
+   "area": "岐阜県各務原市",
+   "hours": "事業者ごとに異なります",
+   "note": "市役所の低層棟南広場に、月曜から金曜（閉庁日・年末年始を除く）キッチンカーが出店します。低層棟1階に飲食できる市民交流スペースがあります。",
+   "sourceUrl": "https://www.city.kakamigahara.lg.jp/shisei/shisetsu/1019618/1019469.html",
+   "sourceLabel": "各務原市 公式サイト"
+  },
+  {
+   "name": "東村山市役所 本庁舎",
+   "address": "東京都東村山市本町1丁目2番地3",
+   "area": "東京都東村山市",
+   "hours": "平日 午前10時〜午後6時",
+   "note": "市役所本庁舎の敷地内にキッチンカーが出店します。準備・休憩時間を含む時間です。売り切れで早く終わることがあります。",
+   "sourceUrl": "https://www.city.higashimurayama.tokyo.jp/shisetsu/shi/shi/kitchen.html",
+   "sourceLabel": "東村山市 公式サイト"
+  },
+  {
+   "name": "日立市役所 大屋根広場",
+   "address": "茨城県日立市助川町1-1-1",
+   "area": "茨城県日立市",
+   "hours": "お昼の時間帯（土日祝を除く）",
+   "note": "市役所の大屋根広場（レストラン入口付近）にキッチンカーが出店します。出店時間は事業者ごとに異なります。",
+   "sourceUrl": "https://www.city.hitachi.lg.jp/shisei/shiyakusho_annai/1003241.html",
+   "sourceLabel": "日立市 公式サイト"
+  },
+  {
+   "name": "品川区役所 本庁舎3階プラッツァ",
+   "address": "東京都品川区広町2-1-36",
+   "area": "東京都品川区",
+   "hours": "午前11時〜午後2時",
+   "note": "区役所本庁舎3階のプラッツァに、水曜と金曜（8月・祝日・年末年始を除く）各日2店舗が出店します。実施期間は令和9年3月31日までです。",
+   "sourceUrl": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-koho/kuseizyoho-koho-sonota/20240705113954.html",
+   "sourceLabel": "品川区 公式サイト"
+  },
+  {
+   "name": "八王子市役所 本庁舎南側広場",
+   "address": "東京都八王子市元本郷町三丁目24番1号",
+   "area": "東京都八王子市",
+   "hours": "午前9時〜午後5時（午前11時〜午後2時は営業）",
+   "note": "本庁舎周辺のにぎわいづくりのため、市が試行的にキッチンカーの出店を行っています。原則として木曜日です。試行期間は令和9年3月31日までです。",
+   "sourceUrl": "https://www.city.hachioji.tokyo.jp/shisetsu/001/p034174.html",
+   "sourceLabel": "八王子市 公式サイト"
+  },
+  {
+   "name": "吾妻山公園",
+   "address": "神奈川県中郡二宮町山西",
+   "area": "神奈川県二宮町",
+   "hours": "",
+   "note": "町がキッチンカーの出店予定を毎月公開しています。急に予定が変わることがあります。",
+   "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001273.html",
+   "sourceLabel": "二宮町 公式サイト",
+   "lat": 35.2991072,
+   "lng": 139.2501865
+  },
+  {
+   "name": "新左近川親水公園",
+   "address": "東京都江戸川区臨海町二丁目",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。この公園の出店は総合レクリエーション公園サービスセンターの扱いで、他の区立公園とは申請の窓口が分かれています。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencarbosyu.html",
+   "sourceLabel": "江戸川区 公式サイト",
+   "lat": 35.653462,
+   "lng": 139.859792
+  },
+  {
+   "name": "総合レクリエーション公園",
+   "address": "東京都江戸川区南葛西四丁目",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。この公園の出店は総合レクリエーション公園サービスセンターの扱いで、他の区立公園とは申請の窓口が分かれています。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencarbosyu.html",
+   "sourceLabel": "江戸川区 公式サイト",
+   "lat": 35.650259,
+   "lng": 139.873083
+  },
+  {
+   "name": "千秋公園",
+   "address": "秋田県秋田市千秋公園",
+   "area": "秋田県秋田市",
+   "hours": "二の丸市民広場周辺 午前7時〜午後7時／東側・西側ポケットパーク 午前7時〜午後10時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。出店できるのは二の丸市民広場周辺、東側ポケットパーク、西側ポケットパークの3か所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.723039,
+   "lng": 140.123899
+  },
+  {
+   "name": "一つ森公園",
+   "address": "秋田県秋田市上北手荒巻",
+   "area": "秋田県秋田市",
+   "hours": "午前7時〜午後9時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。コミュニティ体育館前駐車場が出店場所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.698013,
+   "lng": 140.139906
+  },
+  {
+   "name": "御所野総合公園",
+   "address": "秋田県秋田市御所野地蔵田三丁目",
+   "area": "秋田県秋田市",
+   "hours": "午前7時〜午後7時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。駐車場が出店場所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.657325,
+   "lng": 140.157014
+  },
+  {
+   "name": "埼玉県庁舎",
+   "address": "埼玉県さいたま市浦和区高砂3-15-1",
+   "area": "埼玉県さいたま市浦和区",
+   "hours": "11時〜14時を中心（出店者による）",
+   "note": "令和8年8月17日から、県庁舎で月曜から金曜（祝日・年末年始を除く）日替わりでキッチンカーが出店します。出店場所は本庁舎東側玄関前と第二庁舎南玄関前です。",
+   "sourceUrl": "https://www.pref.saitama.lg.jp/a0205/news/page/news2026081702.html",
+   "sourceLabel": "埼玉県 公式サイト"
+  },
+  {
+   "name": "道の駅しょうなん",
+   "address": "千葉県柏市箕輪新田59-2",
+   "area": "千葉県柏市",
+   "hours": "",
+   "note": "道の駅がキッチンカーの出店予定を毎月公開しています。てんと棟エリアなどに出店します。",
+   "sourceUrl": "https://www.michinoeki-shonan.jp/news/659/",
+   "sourceLabel": "道の駅しょうなん 公式サイト"
+  },
+  {
+   "name": "道の駅とよはし",
+   "address": "愛知県豊橋市東七根町字一の沢113番地2",
+   "area": "愛知県豊橋市",
+   "hours": "",
+   "note": "道の駅が屋外テラスでのキッチンカー出店者を募集しています。マルシェやイベント以外の日にも出店があります。",
+   "sourceUrl": "https://michinoeki-toyohashi.jp/special05",
+   "sourceLabel": "道の駅とよはし 公式サイト"
+  }
+ ]
+}
