@@ -605,6 +605,81 @@
    "note": "区役所本庁舎3階のプラッツァに、水曜と金曜（8月・祝日・年末年始を除く）各日2店舗が出店します。実施期間は令和9年3月31日までです。",
    "sourceUrl": "https://www.city.shinagawa.tokyo.jp/PC/kuseizyoho/kuseizyoho-koho/kuseizyoho-koho-sonota/20240705113954.html",
    "sourceLabel": "品川区 公式サイト"
+  },
+  {
+   "name": "八王子市役所 本庁舎南側広場",
+   "address": "東京都八王子市元本郷町三丁目24番1号",
+   "area": "東京都八王子市",
+   "hours": "午前9時〜午後5時（午前11時〜午後2時は営業）",
+   "note": "本庁舎周辺のにぎわいづくりのため、市が試行的にキッチンカーの出店を行っています。原則として木曜日です。試行期間は令和9年3月31日までです。",
+   "sourceUrl": "https://www.city.hachioji.tokyo.jp/shisetsu/001/p034174.html",
+   "sourceLabel": "八王子市 公式サイト"
+  },
+  {
+   "name": "吾妻山公園",
+   "address": "神奈川県中郡二宮町山西",
+   "area": "神奈川県二宮町",
+   "hours": "",
+   "note": "町がキッチンカーの出店予定を毎月公開しています。急に予定が変わることがあります。",
+   "sourceUrl": "https://www.town.ninomiya.kanagawa.jp/0000001273.html",
+   "sourceLabel": "二宮町 公式サイト",
+   "lat": 35.2991072,
+   "lng": 139.2501865
+  },
+  {
+   "name": "新左近川親水公園",
+   "address": "東京都江戸川区臨海町二丁目",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。この公園の出店は総合レクリエーション公園サービスセンターの扱いで、他の区立公園とは申請の窓口が分かれています。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencarbosyu.html",
+   "sourceLabel": "江戸川区 公式サイト",
+   "lat": 35.653462,
+   "lng": 139.859792
+  },
+  {
+   "name": "総合レクリエーション公園",
+   "address": "東京都江戸川区南葛西四丁目",
+   "area": "東京都江戸川区",
+   "hours": "10時〜16時（目安）",
+   "note": "区がキッチンカーの出店を実施しています。この公園の出店は総合レクリエーション公園サービスセンターの扱いで、他の区立公園とは申請の窓口が分かれています。",
+   "sourceUrl": "https://www.city.edogawa.tokyo.jp/e066/kuseijoho/gaiyo/shisetsuguide/bunya/koendobutsuen/kitchencarbosyu.html",
+   "sourceLabel": "江戸川区 公式サイト",
+   "lat": 35.650259,
+   "lng": 139.873083
+  },
+  {
+   "name": "千秋公園",
+   "address": "秋田県秋田市千秋公園",
+   "area": "秋田県秋田市",
+   "hours": "二の丸市民広場周辺 午前7時〜午後7時／東側・西側ポケットパーク 午前7時〜午後10時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。出店できるのは二の丸市民広場周辺、東側ポケットパーク、西側ポケットパークの3か所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.723039,
+   "lng": 140.123899
+  },
+  {
+   "name": "一つ森公園",
+   "address": "秋田県秋田市上北手荒巻",
+   "area": "秋田県秋田市",
+   "hours": "午前7時〜午後9時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。コミュニティ体育館前駐車場が出店場所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.698013,
+   "lng": 140.139906
+  },
+  {
+   "name": "御所野総合公園",
+   "address": "秋田県秋田市御所野地蔵田三丁目",
+   "area": "秋田県秋田市",
+   "hours": "午前7時〜午後7時",
+   "note": "令和8年4月1日から、イベントの有無にかかわらず、条件を満たせば移動販売車を出店できるようになりました。イベント開催時は出店位置の変更や見合わせがあります。駐車場が出店場所です。",
+   "sourceUrl": "https://www.city.akita.lg.jp/shisei/machizukuri/1011486/1007157/1049759.html",
+   "sourceLabel": "秋田市 公式サイト",
+   "lat": 39.657325,
+   "lng": 140.157014
   }
  ]
 }
